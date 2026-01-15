@@ -1,16 +1,3 @@
 # dialy_tracker
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Дыдочкин Роман 11-ВТИ23. Приложение предназначено для отслеживания и формирования полезных привычек в повседневной жизни. Оно позволяет пользователю добавлять привычки, отмечать их выполнение и наглядно видеть дневной и недельный прогресс. В приложении используется удобный интерфейс с тёмной темой, карточками привычек и индикаторами выполнения. Раздел статистики помогает анализировать результаты, отслеживать регулярность действий и повышать мотивацию к достижению поставленных целей. https://growl-sweep-13145573.figma.site
