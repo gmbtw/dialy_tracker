@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "173017761867",
+    "project_id": "void-app-d2d22",
+    "storage_bucket": "void-app-d2d22.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173017761867:android:274886066559962fe1a5ce",
+        "android_client_info": {
+          "package_name": "roma.dialyapp.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbhZYwi8iWIZERiDsDwtpiF9nM8UHFSjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173017761867:android:37ab4ba47e9f1679e1a5ce",
+        "android_client_info": {
+          "package_name": "voidapp.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbhZYwi8iWIZERiDsDwtpiF9nM8UHFSjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

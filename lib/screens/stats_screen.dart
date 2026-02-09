@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import '../theme.dart';
 
 class StatsScreen extends StatelessWidget {
-  const StatsScreen({super.key});
+  final VoidCallback onLogout;
+  const StatsScreen({super.key, required this.onLogout});
 
   @override
   Widget build(BuildContext context) {
@@ -11,18 +12,33 @@ class StatsScreen extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         child: ListView(
           children: [
-            const Text(
-              "Статистика",
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 28,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            const SizedBox(height: 4),
-            const Text(
-              "Твой прогресс за неделю",
-              style: TextStyle(color: AppColors.muted),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                const Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      "Статистика",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 28,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    SizedBox(height: 4),
+                    Text(
+                      "Твой прогресс за неделю",
+                      style: TextStyle(color: AppColors.muted),
+                    ),
+                  ],
+                ),
+                IconButton(
+                  onPressed: onLogout,
+                  icon: const Icon(Icons.logout_rounded, color: Colors.redAccent),
+                  tooltip: 'Выйти',
+                ),
+              ],
             ),
 
             const SizedBox(height: 20),
